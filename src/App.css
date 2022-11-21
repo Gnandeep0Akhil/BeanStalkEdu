@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+    margin: 10px 0px;
+    font-weight: 700;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  border-radius: 25px;
+  border: 2px dashed rgb(183, 225, 255);
+  background-color: rgb(244, 250, 255);
+  cursor: pointer;
+}
+
+.interact {
+    font-size: 25px;
+    font-style: italic;
+}
