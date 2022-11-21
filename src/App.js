@@ -16,7 +16,7 @@ function App() {
       formData.append("data", event.target.result);
 
       axios
-        .post("http://localhost:5000/home", formData)
+        .post("https://beanstalkedu.herokuapp.com/home", formData)
         .then((res) => {
           const jsonString = `data:text/json;chatset=utf-8,${encodeURIComponent(
             JSON.stringify(res.data)
